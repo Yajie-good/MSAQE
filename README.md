@@ -28,7 +28,7 @@ This repository hosts the implementation of the **Multi-view Scenic Areas Qualit
 Clone the repository from GitHub:
 
 ```bash
-git clone https://anonymous.4open.science/r/MSAQE.git
+git clone https://anonymous.4open.science/r/MSAQE
 ```
 
 ### 2. Navigate to the project directory
