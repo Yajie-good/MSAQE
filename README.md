@@ -1,6 +1,6 @@
 # MSAQE: Multi-view Scenic Areas Quality Evaluation
 
-![Uploading 11111111111_00.png…]()
+![11111111111_00](https://github.com/user-attachments/assets/204efa0f-7605-4111-a379-a5b5adcd1ed4)
 
 This repository hosts the implementation of the **Multi-view Scenic Areas Quality Evaluation (MSAQE)** framework, which assesses scenic area quality through user-generated content. The framework integrates two primary components:
 
