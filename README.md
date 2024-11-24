@@ -58,6 +58,12 @@ code/CBloss_bigbird_GLEE_atten_kernel_2_3/
 ```
 
 ### Datasets
+
+Train Dataset: 
+```bash
+will be updated through the link when accepted(since it is too large)
+```
+
 Validation Dataset: 
 ```bash
 valset.csv
