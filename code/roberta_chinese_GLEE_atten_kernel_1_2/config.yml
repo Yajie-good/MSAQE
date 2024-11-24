@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+# in a yaml file, the later value of a variable will overwrite the corresponding former value
+
+# ## TRAINING
+
+
+# DEFINE THE CSVPATHS FOR TRAIN, TEST AND VALIDATION:
+# ## TRAINING
+# traincsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/small_with_label/small_transfer_trainset_label_chinese.csv' # Defines the traincsvpath variable.
+# valcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/small_with_label/small_transfer_valset_label_chinese.csv' # Defines the valcsvpath variable.
+# testcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/small_with_label/small_transfer_testset_label_chinese.csv' # Define the testcsvpath variable.
+
+# traincsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/with_label/transfer_trainset_label_chinese.csv' # Define the traincsvpath variable.
+# valcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/with_label/transfer_valset_label_chinese.csv' # Define the valcsvpath variable.
+# testcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/with_label/transfer_testset_label_chinese.csv'  # Define the testcsvpath variable.
+
+traincsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/large_dataset_with_label/trainset.csv' # Define the traincsvpath variable.
+valcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/large_dataset_with_label/valset.csv' # Define the valcsvpath variable.
+testcsvpath: '/data/0WYJ/newdata_wyj/CMLTES_codes/data/large_dataset_with_label/testset.csv' # Define the testcsvpath variable.
+
+
+max_length: 512 # MAXIMUM LENGTH OF THE INPUT SENTENCE
+
+batch_size: 4 # IF MORE THAN ONE BATCH SIZE NEEDS TO BE TRIED, JUST ADD TO THE LIST 
+
+mlp_size: 200
+
+num_epochs: 30
+
+
+modelname: roberta_chinese_GLEE_atten_kernel_1_2 
+# modelname: roberta
+
+# DO NOT CHANGE THIS
+num_labels: 8 # THE NUMBER OF LABELS IN CAVES DATASET
+
+model_save_path: None # DO NOT CHANGE THIS, LET IT BE NONE 
+accuracy_save_path: None # DO NOT CHANGE THIS, LET IT BE NONE
+
+learning_rate: 2e-5 
+
+filename: '/data/0WYJ/newdata_wyj/CMLTES_codes/content1/' 
