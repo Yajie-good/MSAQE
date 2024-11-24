@@ -1,4 +1,5 @@
 # MSAQE: Multi-view Scenic Areas Quality Evaluation
+![image](https://github.com/user-attachments/assets/13c7719f-4c5a-4324-be27-81751581f9f0)
 
 
 This repository hosts the implementation of the **Multi-view Scenic Areas Quality Evaluation (MSAQE)** framework, which assesses scenic area quality through user-generated content. The framework integrates two primary components:
@@ -52,6 +53,8 @@ code/RBSA/
 For multi-label classification, navigate to 
 ```bash
 code/roformer_v2_chinese_char_base_GLEE_atten_kernel_1_3/
+code/roberta_chinese_GLEE_atten_kernel_1_2/
+code/CBloss_bigbird_GLEE_atten_kernel_2_3/
 ```
 
 ### Datasets
