@@ -10,8 +10,20 @@ This repository hosts the implementation of the **Multi-view Scenic Areas Qualit
 
 
 ## Repository Structure
-├── code/ │ ├── RBSA/ │ │ ├── albert_fine_tuning.py # Fine-tuning ALBERT for sentiment analysis │ │ ├── reference_dataset.py # Construction and management of reference datasets │ │ ├── sentiment_scoring.py # Calculation of sentiment scores for new comments │ ├── roformer_v2_chinese_char_base_GLEE_atten_kernel_1_3/ │ │ ├── model.py # Implementation of the GLEE framework with attention │ │ ├── training_pipeline.py # Training and evaluation of the multi-label classifier │ │ ├── ablation_study.py # Code for ablation studies (e.g., kernel size effects) ├── data/ # Contains sample datasets for testing ├── README.md # Project documentation ├── requirements.txt # Required Python packages ├── valset.csv # Validation dataset ├── testset.csv # Test dataset
-
+├── code/ │ 
+├── RBSA/ │ 
+├── albert_fine_tuning.py # Fine-tuning ALBERT for sentiment analysis │
+├── reference_dataset.py # Construction and management of reference datasets │
+├── sentiment_scoring.py # Calculation of sentiment scores for new comments │ 
+├── roformer_v2_chinese_char_base_GLEE_atten_kernel_1_3/ │ 
+├── model.py # Implementation of the GLEE framework with attention │ 
+├── training_pipeline.py # Training and evaluation of the multi-label classifier │
+├── ablation_study.py # Code for ablation studies (e.g., kernel size effects)│ 
+├── data/ # Contains sample datasets for testing │
+├── README.md # Project documentation │
+├── requirements.txt # Required Python packages │
+├── valset.csv # Validation dataset │
+├── testset.csv # Test dataset │
 
 ---
 
@@ -30,7 +42,7 @@ This repository hosts the implementation of the **Multi-view Scenic Areas Qualit
 Clone the repository from GitHub:
 
 ```bash
-git clone https://anonymous.4open.science/r/MSAQE
+git clone https://github.com/Yajie-good/MSAQE
 ```
 
 ### 2. Navigate to the project directory
