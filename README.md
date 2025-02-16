@@ -73,7 +73,7 @@ code/CBloss_bigbird_GLEE_atten_kernel_2_3/
 
 Train Dataset: 
 ```bash
-will be updated through the link when accepted(since it is too large)
+download from  https://pan.baidu.com/s/1DeQvjGt5q_muJh3-VzAGNQ?pwd=6666 code:6666
 ```
 
 Validation Dataset: 
