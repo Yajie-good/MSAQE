@@ -11,21 +11,43 @@ This repository hosts the implementation of the **Multi-view Scenic Areas Qualit
 
 ## Repository Structure
 ```
-├── code/  
-├── RBSA/  
-├── albert_fine_tuning.py      # Fine-tuning ALBERT for sentiment analysis  
-├── reference_dataset.py       # Construction and management of reference datasets  
-├── sentiment_scoring.py       # Calculation of sentiment scores for new comments  
-├── roformer_v2_chinese_char_base_GLEE_atten_kernel_1_3/  
-│   ├── model.py               # Implementation of the GLEE framework with attention  
-│   ├── training_pipeline.py   # Training and evaluation of the multi-label classifier  
-│   ├── ablation_study.py      # Code for ablation studies (e.g., kernel size effects)  
-├── data/                      # Contains sample datasets for testing  
-├── README.md                  # Project documentation  
-├── requirements.txt           # Required Python packages  
-├── valset.csv                 # Validation dataset  
-├── testset.csv                # Test dataset  
+├── code/
+│   ├── CBloss_bigbird_GLEE_atten_kernel/
+│   │   ├── BertCNNClassifier.py               # BERT-based CNN classifier
+│   │   ├── BertCNNClassifier_att.py           # BERT-based CNN classifier with attention
+│   │   ├── CBloss_bigbird_Just_Label_202...   # Model implementation for bigbird
+│   │   ├── CBloss_bigbird_Just_Label_att.py   # Model with attention mechanism
+│   │   ├── config.yml                         # Configuration file
+│   │   ├── test.py                            # Testing script
+│   │   ├── util_loss.py                       # Utility functions for loss computation
+│   ├── RBSA/
+│   │   ├── average_calculate copy.py          # Calculation script (copy version)
+│   │   ├── calculate_albert_and_RBSA_sen...   # Sentiment calculation using ALBERT & RBSA
+│   │   ├── calculate_albert_sentiment_fro...  # Sentiment calculation from ALBERT
+│   │   ├── calculate_similarity_from_tests... # Similarity calculation
+│   ├── roberta_chinese_GLEE_atten_kernel/
+│   │   ├── BertCNNClassifier.py               # BERT-based CNN classifier
+│   │   ├── BertCNNClassifier_att.py           # BERT-based CNN classifier with attention
+│   │   ├── Roberta_Just_Label_20230526.py     # Model implementation for RoBERTa
+│   │   ├── Roberta_Just_Label_att.py          # RoBERTa model with attention mechanism
+│   │   ├── config.yml                         # Configuration file
+│   │   ├── test.py                            # Testing script
+│   │   ├── util_loss.py                       # Utility functions for loss computation
+│   ├── roformer_v2_chinese_char_base_GLEE_atten_kernel/
+│   │   ├── __pycache__/                        # Cached Python files
+│   │   ├── BertCNNClassifier.py               # BERT-based CNN classifier
+│   │   ├── BertCNNClassifier_att.py           # BERT-based CNN classifier with attention
+│   │   ├── Roformer_v2_Just_Label_20230...    # Model implementation for RoFormer
+│   │   ├── Roformer_v2_Just_Label_att.py      # RoFormer model with attention mechanism
+│   │   ├── config.yml                         # Configuration file
+│   │   ├── test.py                            # Testing script
+│   │   ├── util_loss.py                       # Utility functions for loss computation
+├── README.md                                  # Project documentation
+├── requirements.txt                           # Required Python packages
+├── testset.csv                                # Test dataset
+├── valset.csv                                 # Validation dataset
 ```
+
 
 
 ---
