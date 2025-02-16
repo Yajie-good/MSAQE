@@ -34,7 +34,6 @@ This repository hosts the implementation of the **Multi-view Scenic Areas Qualit
 │   │   ├── test.py                            # Testing script
 │   │   ├── util_loss.py                       # Utility functions for loss computation
 │   ├── roformer_v2_chinese_char_base_GLEE_atten_kernel/
-│   │   ├── __pycache__/                        # Cached Python files
 │   │   ├── BertCNNClassifier.py               # BERT-based CNN classifier
 │   │   ├── BertCNNClassifier_att.py           # BERT-based CNN classifier with attention
 │   │   ├── Roformer_v2_Just_Label_20230...    # Model implementation for RoFormer
