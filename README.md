@@ -4,6 +4,8 @@
 
 This repository hosts the implementation of the **Multi-view Scenic Areas Quality Evaluation (MSAQE)** framework, which assesses scenic area quality through user-generated content. The framework integrates two primary components:
 
+This article has been accepted by DASFAA 2025.
+
 1. **Reference-Based Sentiment Analysis (RBSA):** Build reference set. Utilizes a fine-tuned ALBERT model to generate sentiment scores for comments, enhancing accuracy by comparing them to a curated reference set.
 2. **Global and Local Ensemble Encoding (GLEE):** Employs GLEE for multi-label classification, capturing various quality dimensions such as business management (BM.), excursions (Exc.), hygiene (Hyg.), post and telecommunications (PT.), tourism transportation (TT.), travel safety (TSA.), travel shopping (TSH.), and resources and environmental protection (REP.).
 
